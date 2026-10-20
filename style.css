@@ -65,3 +65,8 @@ footer nav{display:flex;flex-wrap:wrap;gap:8px 20px;margin-bottom:12px}
 .split{display:grid;gap:18px;grid-template-columns:1fr 1fr}
 @media (max-width:700px){.split{grid-template-columns:1fr}}
 .split ul{margin:.4em 0 0;padding-left:1.2em;color:var(--muted);font-size:.97rem}
+
+/* 3D book mockup in hero (has its own perspective and shadow) */
+.hero-art picture{display:block}
+.cover-3d{display:block;width:100%;max-width:400px;height:auto;margin:0 auto}
+@media (max-width:820px){.cover-3d{max-width:300px}}
